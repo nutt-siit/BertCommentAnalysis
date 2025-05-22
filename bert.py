@@ -12,7 +12,7 @@ classifier = pipeline("sentiment-analysis", model="distilbert-base-uncased-finet
 
 # Test with example sentences
 text1 = "I love this product! It's amazing."
-text2 = "You are good at eating Shit. "
+text2 = "You are not beautiful."
 
 # Get predictions
 result1 = classifier(text1)
